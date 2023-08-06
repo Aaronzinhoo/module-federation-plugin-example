@@ -10,7 +10,8 @@ import { FLIGHTS_ROUTES } from './flights.routes';
     RouterModule.forChild(FLIGHTS_ROUTES)
   ],
   declarations: [
-    FlightsSearchComponent
-  ]
+    // FlightsSearchComponent
+  ],
+  providers: []
 })
 export class FlightsModule { }
